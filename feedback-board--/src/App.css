@@ -1,0 +1,1200 @@
+/* =====================================================
+   FEEDBACK BOARD - RESPONSIVE DESIGN
+   ===================================================== */
+
+/* ---------- Base / All Screens ---------- */
+
+.hero-section {
+    padding-top: 80px;
+    padding-bottom: 55px;
+}
+
+.hero-badge {
+    padding: 10px 16px;
+    margin-bottom: 28px;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    max-width: 720px;
+    line-height: 1.7;
+}
+
+.feedback-section {
+    padding-bottom: 70px;
+}
+
+.feedback-card {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.feedback-card-body {
+    padding: 48px;
+}
+
+.feedback-header {
+    margin-bottom: 32px;
+}
+
+.feedback-icon {
+    font-size: 3rem;
+    margin-bottom: 8px;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.12);
+}
+
+.submit-btn {
+    min-height: 52px;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+.submit-btn:hover:not(:disabled) {
+    transform: translateY(-1px);
+}
+
+.privacy-note {
+    margin-top: 22px;
+}
+
+.footer {
+    padding: 24px 10px;
+}
+
+
+/* =====================================================
+   EXTRA SMALL - SMALL SMARTPHONES
+   < 640px
+   ===================================================== */
+
+@media (max-width: 639px) {
+
+    .navbar-container {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem !important;
+    }
+
+    .hero-section {
+        padding-top: 48px;
+        padding-bottom: 32px;
+    }
+
+    .hero-badge {
+        padding: 8px 13px;
+        margin-bottom: 22px;
+    }
+
+    .hero-badge small {
+        font-size: 0.75rem;
+    }
+
+    .hero-title {
+        font-size: 2.25rem;
+        line-height: 1.12;
+        letter-spacing: -0.5px;
+        margin-bottom: 18px;
+    }
+
+    .hero-description {
+        font-size: 0.98rem;
+        line-height: 1.6;
+        padding: 0 8px;
+    }
+
+    .feedback-section {
+        padding-bottom: 45px;
+    }
+
+    .feedback-card {
+        border-radius: 15px;
+    }
+
+    .feedback-card-body {
+        padding: 25px 20px;
+    }
+
+    .feedback-icon {
+        font-size: 2.5rem;
+    }
+
+    .feedback-header {
+        margin-bottom: 26px;
+    }
+
+    .feedback-header h3 {
+        font-size: 1.35rem;
+    }
+
+    .form-control-lg {
+        font-size: 1rem;
+        padding: 12px 13px;
+    }
+
+    textarea.form-control {
+        min-height: 140px;
+    }
+
+    .submit-btn {
+        min-height: 50px;
+        font-size: 0.98rem;
+    }
+
+    .privacy-note {
+        padding: 0 15px;
+        margin-top: 18px;
+    }
+
+    .privacy-note small {
+        font-size: 0.75rem;
+        line-height: 1.5;
+    }
+
+    .footer {
+        padding: 20px 15px;
+    }
+
+}
+
+
+/* =====================================================
+   SMALL - LARGE PHONES / MOBILE LANDSCAPE
+   640px+
+   ===================================================== */
+
+@media (min-width: 640px) {
+
+    .hero-section {
+        padding-top: 65px;
+        padding-bottom: 45px;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .feedback-card-body {
+        padding: 38px;
+    }
+
+}
+
+
+/* =====================================================
+   MEDIUM - TABLETS
+   768px+
+   ===================================================== */
+
+@media (min-width: 768px) {
+
+    .hero-section {
+        padding-top: 75px;
+        padding-bottom: 50px;
+    }
+
+    .hero-title {
+        font-size: 3.25rem;
+    }
+
+    .hero-description {
+        font-size: 1.1rem;
+    }
+
+    .feedback-card-body {
+        padding: 45px;
+    }
+
+}
+
+
+/* =====================================================
+   LARGE - SMALL LAPTOPS
+   1024px+
+   ===================================================== */
+
+@media (min-width: 1024px) {
+
+    .hero-section {
+        padding-top: 85px;
+        padding-bottom: 60px;
+    }
+
+    .hero-title {
+        font-size: 3.6rem;
+    }
+
+    .feedback-card-body {
+        padding: 50px;
+    }
+
+}
+
+
+/* =====================================================
+   EXTRA LARGE - DESKTOP
+   1280px+
+   ===================================================== */
+
+@media (min-width: 1280px) {
+
+    .hero-section {
+        padding-top: 95px;
+        padding-bottom: 65px;
+    }
+
+    .hero-title {
+        font-size: 3.8rem;
+    }
+
+    .hero-description {
+        max-width: 750px;
+    }
+
+    .feedback-card {
+        border-radius: 22px;
+    }
+
+}
+
+
+/* =====================================================
+   2X LARGE - LARGE SCREENS
+   1536px+
+   ===================================================== */
+
+@media (min-width: 1536px) {
+
+    .hero-section {
+        padding-top: 110px;
+        padding-bottom: 75px;
+    }
+
+    .hero-title {
+        font-size: 4rem;
+    }
+
+    .hero-description {
+        max-width: 780px;
+    }
+
+    .feedback-card-body {
+        padding: 55px;
+    }
+
+}
+
+/* =====================================================
+   ADMIN DASHBOARD
+   ===================================================== */
+
+.admin-dashboard {
+    background: #f6f8fb;
+    color: #212529;
+}
+
+
+/* Navbar */
+
+.admin-nav-label {
+    color: #adb5bd;
+    font-size: 0.85rem;
+    border-left: 1px solid #495057;
+    padding-left: 14px;
+    margin-left: 14px;
+}
+
+
+/* Main */
+
+.dashboard-container {
+    padding-top: 48px;
+    padding-bottom: 60px;
+}
+
+
+/* Welcome */
+
+.dashboard-welcome {
+    margin-bottom: 30px;
+}
+
+.dashboard-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+
+    background: #e9f2ff;
+    color: #0d6efd;
+
+    border-radius: 50px;
+
+    padding: 7px 13px;
+
+    font-size: 0.78rem;
+    font-weight: 600;
+
+    margin-bottom: 12px;
+}
+
+.dashboard-badge span {
+    font-size: 0.65rem;
+}
+
+.dashboard-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.dashboard-subtitle {
+    color: #6c757d;
+    margin-bottom: 0;
+}
+
+
+/* Statistics */
+
+.dashboard-stat-card {
+    background: #ffffff;
+
+    border: 1px solid #e9ecef;
+
+    border-radius: 16px;
+
+    padding: 22px;
+
+    display: flex;
+    align-items: center;
+    gap: 17px;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.04);
+}
+
+.stat-icon {
+    width: 52px;
+    height: 52px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #eef5ff;
+
+    border-radius: 14px;
+
+    font-size: 1.4rem;
+}
+
+.stat-label {
+    color: #6c757d;
+    font-size: 0.85rem;
+    margin-bottom: 3px;
+}
+
+.stat-number {
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+/* Main Panel */
+
+.dashboard-panel {
+    background: #ffffff;
+
+    border: 1px solid #e9ecef;
+
+    border-radius: 18px;
+
+    padding: 28px;
+
+    box-shadow:
+        0 5px 25px rgba(0, 0, 0, 0.035);
+}
+
+
+/* Panel Header */
+
+.dashboard-panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 20px;
+
+    margin-bottom: 25px;
+}
+
+.panel-title {
+    font-size: 1.35rem;
+    font-weight: 700;
+
+    margin-bottom: 4px;
+}
+
+.panel-subtitle {
+    color: #6c757d;
+    font-size: 0.9rem;
+
+    margin-bottom: 0;
+}
+
+.refresh-btn {
+    border: 1px solid #dee2e6;
+    border-radius: 9px;
+
+    font-weight: 500;
+
+    white-space: nowrap;
+}
+
+
+/* Feedback Card */
+
+.feedback-item {
+    background: #ffffff;
+
+    border: 1px solid #e9ecef;
+
+    border-radius: 15px;
+
+    padding: 21px;
+
+    height: 100%;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.feedback-item:hover {
+    transform: translateY(-2px);
+
+    border-color: #d8e3f0;
+
+    box-shadow:
+        0 8px 25px rgba(0, 0, 0, 0.06);
+}
+
+
+/* User */
+
+.feedback-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    gap: 15px;
+}
+
+.feedback-user {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    min-width: 0;
+}
+
+.user-avatar {
+    width: 42px;
+    height: 42px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #eaf2ff;
+    color: #0d6efd;
+
+    border-radius: 50%;
+
+    font-weight: 700;
+}
+
+.feedback-name {
+    font-size: 0.98rem;
+    font-weight: 700;
+
+    margin-bottom: 2px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.feedback-date {
+    color: #8a94a3;
+
+    font-size: 0.72rem;
+}
+
+
+/* Delete */
+
+.delete-btn {
+    width: 36px;
+    height: 36px;
+
+    flex-shrink: 0;
+
+    border: 1px solid #f0d6d6;
+
+    background: #fff7f7;
+
+    border-radius: 9px;
+
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+.delete-btn:hover {
+    background: #ffe5e5;
+    border-color: #f0bcbc;
+
+    transform: scale(1.05);
+}
+
+
+/* Divider */
+
+.feedback-divider {
+    height: 1px;
+
+    background: #f0f1f3;
+
+    margin: 17px 0;
+}
+
+
+/* Message */
+
+.feedback-message {
+    color: #495057;
+
+    font-size: 0.92rem;
+
+    line-height: 1.7;
+
+    margin-bottom: 0;
+
+    word-break: break-word;
+}
+
+
+/* Loading / Empty */
+
+.dashboard-state {
+    min-height: 280px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.dashboard-state h5 {
+    margin-top: 18px;
+    margin-bottom: 5px;
+
+    font-weight: 600;
+}
+
+.dashboard-state p {
+    color: #6c757d;
+
+    font-size: 0.9rem;
+
+    margin-bottom: 0;
+}
+
+.empty-icon {
+    font-size: 3.5rem;
+    margin-bottom: 5px;
+}
+
+
+/* Footer */
+
+.dashboard-footer {
+    background: #ffffff;
+
+    border-top: 1px solid #e9ecef;
+
+    padding: 22px 10px;
+
+    color: #8a94a3;
+}
+
+
+/* =====================================================
+   EXTRA SMALL — < 640px
+   ===================================================== */
+
+@media (max-width: 639px) {
+
+    .admin-nav-label {
+        display: none;
+    }
+
+    .dashboard-container {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .dashboard-welcome {
+        margin-bottom: 22px;
+    }
+
+    .dashboard-title {
+        font-size: 1.75rem;
+    }
+
+    .dashboard-subtitle {
+        font-size: 0.88rem;
+        line-height: 1.5;
+    }
+
+    .dashboard-panel {
+        padding: 18px;
+        border-radius: 15px;
+    }
+
+    .dashboard-panel-header {
+        align-items: flex-start;
+        flex-direction: column;
+
+        margin-bottom: 20px;
+    }
+
+    .panel-title {
+        font-size: 1.15rem;
+    }
+
+    .panel-subtitle {
+        font-size: 0.82rem;
+        line-height: 1.5;
+    }
+
+    .refresh-btn {
+        width: 100%;
+    }
+
+    .feedback-item {
+        padding: 17px;
+    }
+
+    .feedback-name {
+        max-width: 150px;
+    }
+
+    .feedback-message {
+        font-size: 0.88rem;
+    }
+
+}
+
+
+/* =====================================================
+   SMALL — 640px+
+   ===================================================== */
+
+@media (min-width: 640px) {
+
+    .dashboard-container {
+        padding-top: 40px;
+    }
+
+}
+
+
+/* =====================================================
+   MEDIUM — 768px+
+   ===================================================== */
+
+@media (min-width: 768px) {
+
+    .dashboard-container {
+        padding-top: 48px;
+    }
+
+    .dashboard-title {
+        font-size: 2.2rem;
+    }
+
+}
+
+
+/* =====================================================
+   LARGE — 1024px+
+   ===================================================== */
+
+@media (min-width: 1024px) {
+
+    .dashboard-container {
+        padding-top: 55px;
+    }
+
+    .dashboard-panel {
+        padding: 30px;
+    }
+
+}
+
+
+/* =====================================================
+   EXTRA LARGE — 1280px+
+   ===================================================== */
+
+@media (min-width: 1280px) {
+
+    .dashboard-container {
+        padding-top: 60px;
+    }
+
+}
+
+
+/* =====================================================
+   2X LARGE — 1536px+
+   ===================================================== */
+
+@media (min-width: 1536px) {
+
+    .dashboard-container {
+        max-width: 1250px;
+    }
+
+    .dashboard-title {
+        font-size: 2.4rem;
+    }
+
+}
+
+/* =====================================================
+   ADMIN DASHBOARD
+   ===================================================== */
+
+.admin-dashboard-page {
+    background: #f8f9fa;
+    min-height: 100vh;
+}
+
+
+/* ---------- Main Container ---------- */
+
+.dashboard-container {
+    padding-top: 55px;
+    padding-bottom: 70px;
+}
+
+
+/* ---------- Welcome ---------- */
+
+.dashboard-welcome {
+    margin-bottom: 30px;
+}
+
+.dashboard-welcome h1 {
+    font-size: 2rem;
+}
+
+
+/* ---------- Statistics ---------- */
+
+.dashboard-stats {
+    margin-bottom: 30px;
+}
+
+.stat-card {
+    border-radius: 16px;
+    transition: transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-2px);
+}
+
+.stat-icon {
+    width: 52px;
+    height: 52px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #eef4ff;
+    border-radius: 14px;
+
+    font-size: 24px;
+}
+
+
+/* ---------- Feedback Panel ---------- */
+
+.feedback-panel {
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.feedback-panel-body {
+    padding: 32px;
+}
+
+.feedback-panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    padding-bottom: 25px;
+
+    border-bottom: 1px solid #eeeeee;
+}
+
+
+/* ---------- Refresh ---------- */
+
+.refresh-btn {
+    border-radius: 9px;
+    min-height: 40px;
+
+    transition: all 0.2s ease;
+}
+
+.refresh-btn:hover:not(:disabled) {
+    background: #f1f3f5;
+}
+
+.refresh-icon {
+    font-size: 20px;
+    line-height: 1;
+    display: inline-block;
+}
+
+.refresh-icon.spinning {
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* ---------- Feedback Card ---------- */
+
+.feedback-item-card {
+    height: 100%;
+
+    padding: 22px;
+
+    background: #ffffff;
+
+    border: 1px solid #e9ecef;
+    border-radius: 15px;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.feedback-item-card:hover {
+    transform: translateY(-2px);
+
+    border-color: #dbe4ff;
+
+    box-shadow:
+        0 8px 25px rgba(0, 0, 0, 0.06);
+}
+
+
+/* ---------- Avatar ---------- */
+
+.user-avatar {
+    width: 44px;
+    height: 44px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #e9f0ff;
+
+    color: #0d6efd;
+
+    font-weight: 700;
+
+    font-size: 16px;
+}
+
+
+/* ---------- Delete ---------- */
+
+.delete-btn {
+    width: 38px;
+    height: 38px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #f1caca;
+
+    background: #fff5f5;
+
+    border-radius: 9px;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease;
+}
+
+.delete-btn:hover {
+    background: #ffe0e0;
+    transform: scale(1.05);
+}
+
+
+/* ---------- Divider ---------- */
+
+.feedback-divider {
+    height: 1px;
+    background: #eeeeee;
+
+    margin: 18px 0;
+}
+
+
+/* ---------- Message ---------- */
+
+.feedback-message {
+    color: #495057;
+
+    line-height: 1.7;
+
+    word-break: break-word;
+}
+
+
+/* ---------- Empty State ---------- */
+
+.dashboard-empty-state {
+    min-height: 280px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.empty-icon {
+    font-size: 3.5rem;
+}
+
+
+/* ---------- Footer ---------- */
+
+.dashboard-footer {
+    background: #ffffff;
+
+    border-top: 1px solid #dee2e6;
+
+    padding: 22px 10px;
+}
+
+
+/* =====================================================
+   EXTRA SMALL
+   < 640px
+   ===================================================== */
+
+@media (max-width: 639px) {
+
+    .dashboard-container {
+        padding-top: 35px;
+        padding-bottom: 45px;
+    }
+
+    .dashboard-welcome {
+        margin-bottom: 25px;
+    }
+
+    .dashboard-welcome h1 {
+        font-size: 1.65rem;
+    }
+
+    .dashboard-welcome p {
+        font-size: 0.9rem;
+    }
+
+    .feedback-panel {
+        border-radius: 14px;
+    }
+
+    .feedback-panel-body {
+        padding: 20px 16px;
+    }
+
+    .feedback-panel-header {
+        align-items: flex-start;
+        padding-bottom: 20px;
+    }
+
+    .feedback-panel-header h3 {
+        font-size: 1.25rem;
+    }
+
+    .feedback-panel-header p {
+        font-size: 0.85rem;
+    }
+
+    .feedback-item-card {
+        padding: 18px;
+        border-radius: 13px;
+    }
+
+    .user-avatar {
+        width: 40px;
+        height: 40px;
+    }
+
+    .delete-btn {
+        width: 35px;
+        height: 35px;
+    }
+
+    .dashboard-footer {
+        padding: 18px 10px;
+    }
+
+}
+
+
+/* =====================================================
+   SMALL
+   640px+
+   ===================================================== */
+
+@media (min-width: 640px) {
+
+    .dashboard-container {
+        padding-top: 45px;
+    }
+
+}
+
+
+/* =====================================================
+   MEDIUM - TABLETS
+   768px+
+   ===================================================== */
+
+@media (min-width: 768px) {
+
+    .dashboard-container {
+        padding-top: 55px;
+    }
+
+    .dashboard-welcome h1 {
+        font-size: 2.1rem;
+    }
+
+}
+
+
+/* =====================================================
+   LARGE - SMALL LAPTOPS
+   1024px+
+   ===================================================== */
+
+@media (min-width: 1024px) {
+
+    .dashboard-container {
+        padding-top: 65px;
+    }
+
+    .feedback-panel-body {
+        padding: 36px;
+    }
+
+}
+
+
+/* =====================================================
+   EXTRA LARGE - DESKTOP
+   1280px+
+   ===================================================== */
+
+@media (min-width: 1280px) {
+
+    .dashboard-container {
+        padding-top: 70px;
+    }
+
+    .feedback-panel-body {
+        padding: 40px;
+    }
+
+}
+
+
+/* =====================================================
+   2X LARGE
+   1536px+
+   ===================================================== */
+
+@media (min-width: 1536px) {
+
+    .dashboard-container {
+        padding-top: 80px;
+    }
+
+    .feedback-panel-body {
+        padding: 45px;
+    }
+
+}
