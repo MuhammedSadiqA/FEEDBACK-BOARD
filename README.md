@@ -5,7 +5,7 @@ A MERN stack feedback management system developed for the IEDC Technical Selecti
 ## Features
 
 - Responsive feedback submission page
-- MongoDB database
+- MongoDB database (Compass)
 - Admin login
 - Password hashing with bcrypt
 - Admin dashboard
