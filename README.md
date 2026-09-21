@@ -51,5 +51,11 @@ node createAdmin.js
 
 Admin credentials:
 
-Username: admin
-Password: admin123
+## Admin Access
+
+The admin login page is intentionally not exposed through the public interface.
+The admin route is accessible only to authorized personnel who are provided
+with the access URL.
+
+Admin authentication is protected through backend username/password
+verification using bcrypt password hashing.
